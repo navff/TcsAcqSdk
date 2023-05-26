@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\TinkkoffAcquiringSdk\TinkkoffAcquiringSdk.csproj" />
+    <ProjectReference Include="..\..\src\TinkkoffAcquiringSDK\TinkkoffAcquiringSDK.csproj" />
   </ItemGroup>
 
 </Project>
