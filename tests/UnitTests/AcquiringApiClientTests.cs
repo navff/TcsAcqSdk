@@ -1,10 +1,8 @@
-using System;
-using System.Threading.Tasks;
+using TinkkoffAcquiringSdk;
 using TinkkoffAcquiringSdk.Requests;
 using TinkkoffAcquiringSdk.Responses;
-using Xunit;
 
-namespace TinkkoffAcquiringSdk.UnitTests
+namespace UnitTests
 {
     public class AcquiringApiClientTests
     {
