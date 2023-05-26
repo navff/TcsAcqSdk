@@ -25,7 +25,7 @@ namespace TinkkoffAcquiringSdk.Requests
         /// <summary>
         /// Пароль от терминала. Выдается вместе с terminalKey
         /// </summary>
-        public string Password { get; init; }
+        public string Password { get; init; } = string.Empty;
 
         /// <summary>
         /// Подпись запроса

@@ -89,16 +89,16 @@ namespace TinkkoffAcquiringSdk.Requests
         ///     Срок жизни ссылки
         /// </summary>
         public DateTime? RedirectDueDate { get; set; }
-        
+
         /// <summary>
         /// Страница успеха
         /// </summary>
-        public string SuccessURL { get; set; }
+        public string SuccessURL { get; set; } = string.Empty;
 
         /// <summary>
         /// Страница ошибки
         /// </summary>
-        public string FailURL { get; set; }
+        public string FailURL { get; set; } = string.Empty;
         
         public override string ToString()
         {

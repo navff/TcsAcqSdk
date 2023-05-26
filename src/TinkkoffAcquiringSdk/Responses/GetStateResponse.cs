@@ -7,7 +7,7 @@ namespace TinkkoffAcquiringSdk.Responses
         /// <summary>
         ///     Номер заказа в системе продавца
         /// </summary>
-        public string OrderId { get; set; }
+        public string OrderId { get; set; } = string.Empty;
 
         /// <summary>
         ///     Кникальный идентификатор транзакции в системе банка
@@ -17,7 +17,7 @@ namespace TinkkoffAcquiringSdk.Responses
         /// <summary>
         ///     Статус транзакции
         /// </summary>
-        public string Status { get; set; }
+        public string Status { get; set; } = string.Empty;
 
         /// <summary>
         ///     Сумма заказа в копейках
