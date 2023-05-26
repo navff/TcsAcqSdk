@@ -25,7 +25,9 @@ namespace TinkkoffAcquiringSdk.UnitTests
                 ChargeFlag = isRecurrent,
                 CustomerKey = TestPaymentData.TestCustomerKey,
                 PayForm = TestPaymentData.TestPayForm,
-                Recurrent = isRecurrent
+                Recurrent = isRecurrent,
+                SuccessURL = "https://test.anyor.ru",
+                FailURL = "https://test.anyor.ru/payment/fail"
             };
             var response = await _client.InitPaymentSessionAsync(request);
 

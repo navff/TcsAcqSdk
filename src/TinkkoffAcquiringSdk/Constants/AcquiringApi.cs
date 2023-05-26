@@ -45,7 +45,7 @@ namespace TinkkoffAcquiringSdk.Constants
 
         public const string ApiVersion = "v2";
         public static string ApiUrlRelease = $"https://securepay.tinkoff.ru/{ApiVersion}/[0]";
-        public static string ApiUrlDebug = $"https://rest-api-test.tcsbank.ru/{ApiVersion}/[0]";
+        public static string ApiUrlDebug = $"https://securepay.tinkoff.ru/{ApiVersion}/[0]";
 
         /// <summary>
         ///     Коды ошибок при привязке карты

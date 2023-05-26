@@ -89,6 +89,21 @@ namespace TinkkoffAcquiringSdk.Requests
         ///     Срок жизни ссылки
         /// </summary>
         public DateTime? RedirectDueDate { get; set; }
+        
+        /// <summary>
+        /// Страница успеха
+        /// </summary>
+        public string SuccessURL { get; set; }
+
+        /// <summary>
+        /// Страница ошибки
+        /// </summary>
+        public string FailURL { get; set; }
+        
+        public override string ToString()
+        {
+            return base.ToString();
+        }
 
         public override Dictionary<string, object> ToDictionary()
         {
@@ -106,6 +121,7 @@ namespace TinkkoffAcquiringSdk.Requests
             AddIfNotNull(map, AcquiringFields.Receipts, Receipts);
             AddIfNotNull(map, AcquiringFields.Shops, Shops);
             AddIfNotNull(map, AcquiringFields.RedirectDueDate, RedirectDueDate.ToString());
+            AddIfNotNull(map, AcquiringFields.SuccessURL, SuccessURL);
             return map;
         }
 

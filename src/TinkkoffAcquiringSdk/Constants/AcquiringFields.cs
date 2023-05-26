@@ -33,6 +33,7 @@
         public const string AndroidPayToken = "EncryptedPaymentData";
         public const string DataType = "DataType";
         public const string RedirectDueDate = "RedirectDueDate";
+        public const string SuccessURL = "SuccessURL";
         public const string IP = "IP";
     }
 }
