@@ -24,4 +24,4 @@ jobs:
     - name: Push
       run: dotnet nuget push /home/runner/work/TcsAcqSdk/TcsAcqSdk/Navff.Tinkoff.Sdk.${VERSION}.nupkg --source https://nuget.pkg.github.com/navff/index.json --api-key ${GITHUB_TOKEN}
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.TOKEN_FOR_GITHUB_PUBLISH }}
