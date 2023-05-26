@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using TinkkoffAcquiringSdk.Constants;
-using TinkkoffAcquiringSdk.Responses;
+using TinkoffAcquiringSdk.Constants;
+using TinkoffAcquiringSdk.Responses;
 
-namespace TinkkoffAcquiringSdk.Requests
+namespace TinkoffAcquiringSdk.Requests
 {
     /// <summary>
     ///     Возвращает статус платежа

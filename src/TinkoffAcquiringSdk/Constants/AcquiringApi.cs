@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TinkkoffAcquiringSdk.Constants
+namespace TinkoffAcquiringSdk.Constants
 {
     /// <summary>
     ///     Содержит константы для создания запросов к Acquiring API

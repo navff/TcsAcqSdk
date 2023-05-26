@@ -1,4 +1,4 @@
-﻿namespace TinkkoffAcquiringSdk.Constants
+﻿namespace TinkoffAcquiringSdk.Constants
 {
     public static class AcquiringFields
     {

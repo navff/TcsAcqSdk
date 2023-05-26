@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace TinkkoffAcquiringSdk.Responses
+namespace TinkoffAcquiringSdk.Responses
 {
     /// <summary>
     /// Базовый класс для ответов

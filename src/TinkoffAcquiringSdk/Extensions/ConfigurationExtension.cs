@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace TinkkoffAcquiringSdk.Extensions
+namespace TinkoffAcquiringSdk.Extensions
 {
     public static class ConfigurationExtension
     {

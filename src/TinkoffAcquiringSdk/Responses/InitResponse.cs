@@ -1,4 +1,6 @@
-﻿namespace TinkkoffAcquiringSdk.Responses
+﻿using TinkoffAcquiringSdk.Enums;
+
+namespace TinkoffAcquiringSdk.Responses
 {
     public record InitResponse : AcquiringResponse
     {

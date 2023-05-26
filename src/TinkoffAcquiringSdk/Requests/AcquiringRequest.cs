@@ -1,10 +1,10 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using TinkkoffAcquiringSdk.Constants;
-using TinkkoffAcquiringSdk.Responses;
+using Newtonsoft.Json;
+using TinkoffAcquiringSdk.Constants;
+using TinkoffAcquiringSdk.Responses;
 
-namespace TinkkoffAcquiringSdk.Requests
+namespace TinkoffAcquiringSdk.Requests
 {
     /// <summary>
     /// Базовый класс для запросов

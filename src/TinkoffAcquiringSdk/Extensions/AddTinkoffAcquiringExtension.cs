@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace TinkkoffAcquiringSdk.Extensions
+namespace TinkoffAcquiringSdk.Extensions
 {
     public static class AddTinkoffAcquiringExtension
     {

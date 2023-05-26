@@ -3,12 +3,12 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using TinkkoffAcquiringSdk.Constants;
-using TinkkoffAcquiringSdk.Requests;
-using TinkkoffAcquiringSdk.Responses;
-using TinkkoffAcquiringSdk.Utils;
+using TinkoffAcquiringSdk.Constants;
+using TinkoffAcquiringSdk.Requests;
+using TinkoffAcquiringSdk.Responses;
+using TinkoffAcquiringSdk.Utils;
 
-namespace TinkkoffAcquiringSdk
+namespace TinkoffAcquiringSdk
 {
     /// <summary>
     ///     Класс позволяет конфигурировать SDK и осуществлять взаимодействие с Tinkoff Acquiring API.

@@ -1,6 +1,6 @@
-﻿using System;
+﻿using TinkoffAcquiringSdk.Enums;
 
-namespace TinkkoffAcquiringSdk.Responses
+namespace TinkoffAcquiringSdk.Responses
 {
     public record GetStateResponse : AcquiringResponse
     {

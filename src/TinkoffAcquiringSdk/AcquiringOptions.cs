@@ -1,4 +1,4 @@
-﻿namespace TinkkoffAcquiringSdk
+﻿namespace TinkoffAcquiringSdk
 {
     public class AcquiringOptions
     {

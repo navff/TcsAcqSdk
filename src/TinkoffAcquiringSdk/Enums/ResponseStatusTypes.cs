@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TinkkoffAcquiringSdk.Responses
+namespace TinkoffAcquiringSdk.Enums
 {
     public static class ResponseStatusConverter
     {
