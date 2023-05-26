@@ -22,6 +22,6 @@ jobs:
     - name: Pack
       run: dotnet pack --configuration Release /p:Version=${VERSION} --no-build --output .
     - name: Push
-      run: dotnet nuget push /home/runner/work/TcsAcqSdk/TcsAcqSdk/Navff.TcsAcqSdk.${VERSION}.nupkg --source https://nuget.pkg.github.com/navff/index.json --api-key ${GITHUB_TOKEN}
+      run: dotnet nuget push /home/runner/work/TcsAcqSdk/TcsAcqSdk/Navff.Tinkoff.Sdk.${VERSION}.nupkg --source https://nuget.pkg.github.com/navff/index.json --api-key ${GITHUB_TOKEN}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
