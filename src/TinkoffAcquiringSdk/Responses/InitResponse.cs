@@ -11,5 +11,7 @@ namespace TinkoffAcquiringSdk.Responses
         public long? PaymentId { get; set; }
 
         public ResponseStatusType? Status { get; set; }
+
+        public string? PaymentURL { get; set; }
     }
 }

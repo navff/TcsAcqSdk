@@ -1,6 +1,6 @@
-using TinkkoffAcquiringSdk;
-using TinkkoffAcquiringSdk.Requests;
-using TinkkoffAcquiringSdk.Responses;
+using TinkoffAcquiringSdk;
+using TinkoffAcquiringSdk.Enums;
+using TinkoffAcquiringSdk.Requests;
 
 namespace UnitTests
 {
