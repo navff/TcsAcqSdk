@@ -14,7 +14,6 @@
     <PackageId>Navff.Tinkoff.Sdk</PackageId>
     <RepositoryType>git</RepositoryType>
     <IncludeSymbols>true</IncludeSymbols>
-    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
