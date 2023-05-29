@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -76,10 +77,15 @@ namespace TinkoffAcquiringSdk
             request.Token = MakeToken(request);
             var json = JsonConvert.SerializeObject(request, Settings);
             var url = GetUrl(request.MethodApi);
+            
+            Console.WriteLine("TINKOFF_REQUEST: " + json);
+            Console.WriteLine("TINKOFF_URL: " + url);
+            
             using HttpContent content = new StringContent(json, Encoding.UTF8, AcquiringApi.Json);
             var response = await HttpClient.PostAsync(url, content);
             var responseContent = response.Content;
             var body = await responseContent.ReadAsStringAsync();
+            Console.WriteLine("TINKOFF_RESPONSE: " + body);
             return JsonConvert.DeserializeObject<TResponse>(body);
         }
 
